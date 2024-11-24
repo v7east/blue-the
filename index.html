@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Prussian Blue Theme with Logo</title>
-<meta name="description" content="Stream live sports in HD with StreamEast. Watch NBA, Boxing, NCAAB, and more. Bookmark this site for the latest updates.">
+<title>StreamEast - Live Sports Streaming</title>
+<meta name="description" content="Watch live sports in HD with StreamEast. Stay updated with NBA, Boxing, NCAAB, and more. Bookmark this site for the latest streams.">
 <meta name="keywords" content="live sports streaming, NBA streams, Boxing streams, NCAAB live, CFB live, StreamEast">
 <meta name="robots" content="index, follow">
 <style>
@@ -13,21 +13,17 @@
     padding: 0;
     background-color: #003153;  /* Prussian blue background */
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 100vh;
     font-family: Arial, sans-serif;
     color: white;
   }
 
-  .container {
-    width: 80%;  /* Adjusts the container width */
-    max-width: 800px;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  .header {
     text-align: center;
+    margin-bottom: 20px;
   }
 
   .header img {
@@ -36,9 +32,13 @@
   }
 
   .content-box {
-    padding: 30px;
-    background-color: #002147;  /* Darker shade of Prussian blue */
+    width: 60%;  /* Reduced width */
+    max-width: 500px;  /* Maximum width */
+    padding: 20px;
+    background-color: #002147;  /* Darker Prussian blue for contrast */
     border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);  /* Adds depth */
   }
 
   .bookmark {
@@ -80,40 +80,38 @@
 </head>
 <body>
   
-  <div class="container">
-    <!-- Logo in the center -->
-              <center>
-      <a id="logo-link" href="https://reddit.bestreamsports.lol/" target="_blank" rel="noopener">
-        <img src="https://official-v3--streameast.pages.dev/images/watch-live-nfl-streams-logo.png" alt="StreamEast Logo">
-      </a>
-    </center>
-    
-    <!-- Main content -->
-    <div class="content-box">
-      <span class="bookmark">Please press Ctrl + D to bookmark this site to keep updated about StreamEast-official domains.</span>
-      <ul class="m-list">
-        <li class="bntl">
-          <a href="https://reddit.bestreamsports.lol/">STREAMEAST HOME</a>
-          <span>● LIVE</span>
-        </li>
-        <li class="bntl">
-          <a href="https://reddit.bestreamsports.lol/p/nbastreams.html">NBA LIVE HD Football</a>
-          <span>● LIVE</span>
-        </li>
-        <li class="bntl">
-          <a href="https://reddit.bestreamsports.lol/p/boxingstreams.html">BOXING LIVE HD</a>
-          <span>● LIVE</span>
-        </li>
-        <li class="bntl">
-          <a href="https://reddit.bestreamsports.lol/p/ncaabstreams.html">NCAAB LIVE HD</a>
-          <span>● LIVE</span>
-        </li>
-        <li class="bntl">
-          <a href="https://reddit.bestreamsports.lol/p/cfbstreams.html">CFB LIVE HD</a>
-          <span>● LIVE</span>
-        </li>
-      </ul>
-    </div>
+  <div class="header">
+    <!-- Logo at the top -->
+    <a id="logo-link" href="https://reddit.bestreamsports.lol/" target="_blank" rel="noopener">
+      <img src="https://official-v3--streameast.pages.dev/images/watch-live-nfl-streams-logo.png" alt="StreamEast Logo">
+    </a>
+  </div>
+  
+  <!-- Main content -->
+  <div class="content-box">
+    <span class="bookmark">Please press Ctrl + D to bookmark this site to keep updated about StreamEast-official domains.</span>
+    <ul class="m-list">
+      <li class="bntl">
+        <a href="https://reddit.bestreamsports.lol/">STREAMEAST HOME</a>
+        <span>● LIVE</span>
+      </li>
+      <li class="bntl">
+        <a href="https://reddit.bestreamsports.lol/p/nbastreams.html">NBA LIVE HD Football</a>
+        <span>● LIVE</span>
+      </li>
+      <li class="bntl">
+        <a href="https://reddit.bestreamsports.lol/p/boxingstreams.html">BOXING LIVE HD</a>
+        <span>● LIVE</span>
+      </li>
+      <li class="bntl">
+        <a href="https://reddit.bestreamsports.lol/p/ncaabstreams.html">NCAAB LIVE HD</a>
+        <span>● LIVE</span>
+      </li>
+      <li class="bntl">
+        <a href="https://reddit.bestreamsports.lol/p/cfbstreams.html">CFB LIVE HD</a>
+        <span>● LIVE</span>
+      </li>
+    </ul>
   </div>
 </body>
 </html>
